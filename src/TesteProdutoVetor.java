@@ -3,7 +3,7 @@ public class TesteProdutoVetor extends Produto {
 
 	public static void main(String[] args) {
 		
-		String[] nomes = new String[5];
+		//String[] nomes = new String[5];
 		Produto carro = new Produto();
 		Produto caneta = new Produto();
 		
