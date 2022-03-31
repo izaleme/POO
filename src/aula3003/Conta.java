@@ -2,7 +2,7 @@ package aula3003;
 
 public class Conta {
 
-	private double saldo = 0.0;
+	double saldo = 0.0;
 	
 	public boolean depositar(double valor) {
 		if(valor >= 0) {
