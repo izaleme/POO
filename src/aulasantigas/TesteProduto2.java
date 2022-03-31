@@ -1,3 +1,4 @@
+package aulasantigas;
 
 public class TesteProduto2 extends Produto {
 

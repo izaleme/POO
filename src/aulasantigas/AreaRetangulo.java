@@ -1,3 +1,5 @@
+package aulasantigas;
+
 public class AreaRetangulo {
 
 	// Area Retangulo = base x altura

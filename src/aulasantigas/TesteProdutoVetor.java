@@ -1,3 +1,4 @@
+package aulasantigas;
 
 public class TesteProdutoVetor extends Produto {
 

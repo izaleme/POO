@@ -1,3 +1,5 @@
+package aulasantigas;
+
 import java.util.Scanner;
 
 public class TesteProduto extends Produto{

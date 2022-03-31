@@ -1,3 +1,5 @@
+package aulasantigas;
+
 public class Vetor {
 
 	public static void main(String[] args) {

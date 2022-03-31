@@ -1,3 +1,5 @@
+package aulasantigas;
+
 public class CotacaoMoeda2 {
 
 	public static void main(String[] args) {
