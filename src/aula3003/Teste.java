@@ -10,7 +10,7 @@ public class Teste {
 		conta.depositar(1000);
 		conta.transferir(600, conta2);
 		
-		System.out.println("Saldo da conta 1: " + conta.saldo);
-		System.out.println("Saldo da conta 2: " + conta2.saldo);
+		System.out.println("Saldo da conta 1: " + conta.getSaldo());
+		System.out.println("Saldo da conta 2: " + conta2.getSaldo());
 	}
 }

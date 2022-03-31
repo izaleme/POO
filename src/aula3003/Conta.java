@@ -2,11 +2,11 @@ package aula3003;
 
 public class Conta {
 
-	double saldo = 0.0;
+	private double saldo = 0.0;
 	
 	public boolean depositar(double valor) {
 		if(valor >= 0) {
-			saldo += valor;
+			setSaldo(getSaldo() + valor);
 			return true;
 		} else {
 			return false;
@@ -14,8 +14,8 @@ public class Conta {
 	}
 	
 	public boolean sacar(double valor) {
-		if(valor > 0 && valor <= saldo && saldo > 0) {
-			saldo -= valor;
+		if(valor > 0 && valor <= getSaldo() && getSaldo() > 0) {
+			setSaldo(getSaldo() - valor);
 			return true;
 		} else {
 			return false;
@@ -29,6 +29,15 @@ public class Conta {
 		} else {
 			return false;
 		}
+	}
+
+	// Setando o getter e setter da variável private saldo para conseguir usar na classe teste
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
 	}
 	
 }
